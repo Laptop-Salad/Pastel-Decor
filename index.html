@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Script stuff -->
+    <script src="script.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <title>Pastel Decor</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h1>Pastel Decor</h1>
+        <p>Meeting your home decorating needs since 2022</p>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Lounge -->
+        <div id="lounge" onmouseover="hoverLounge()" onmouseout="outLounge()" class="card">
+            <div id="lounge-layer" class="layer"></div>
+            <div class="card-title">
+                <h2>Lounge</h2>
+            </div>
+        </div>
+
+        <!-- Kitchen -->
+        <div id="kitchen" onmouseover="hoverKitchen()" onmouseout="outKitchen()" class="card">
+            <div id="kitchen-layer" class="layer"></div>
+            <div class="card-title">
+                <h2>Kitchen</h2>
+            </div>
+        </div>
+
+        <!-- Bedroom -->
+        <div id="bedroom" onmouseover="hoverBedroom()" onmouseout="outBedroom()" class="card">
+            <div id="bedroom-layer" class="layer"></div>
+            <div class="card-title">
+                <h2>Bedroom</h2>
+            </div>
+        </div>
+
+        <!-- Bathroom -->
+        <div id="bathroom" onmouseover="hoverBathroom()" onmouseout="outBathroom()" class="card">
+            <div id="bathroom-layer" class="layer"></div>
+            <div class="card-title">
+                <h2>Bathroom</h2>
+            </div>
+        </div>
+
+        <!-- On Sale -->
+        <div id="on-sale" onmouseover="hoverSale()" onmouseout="outSale()" class="card">
+            <div id="sale-layer" class="layer"></div>
+            <div class="card-title">
+                <h2>On Sale</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <h2>Pastel Decor</h2>
+    </div>
+</body>
+
+</html>
